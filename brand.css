@@ -1,0 +1,29 @@
+:root{--ink:#123b4d;--muted:#607b85;--paper:#f2fbfb;--white:#fff;--orange:#08adbd;--line:#d9eaec;--green:#d9f2ef;--navy:#07536b;--aqua:#27d1cf}
+body{background:var(--paper);color:var(--ink)}
+.topbar{background:#f8fdfd;border-color:#dcebed}
+.splash{background:radial-gradient(ellipse at 50% 95%,#51e3dd 0,#08b6c3 46%,#08799b 100%);gap:9px}
+.splash img{width:88px;filter:drop-shadow(0 8px 12px #045e7770)}
+.splash-wordmark{font:800 42px/1 Manrope,sans-serif;color:white;letter-spacing:1px;text-shadow:0 3px 10px #07536b55}
+.splash-wordmark span{color:#07536b}
+.splash span{color:#07536b;background:white;border-radius:22px;padding:8px 16px;font-size:12px;font-weight:700;letter-spacing:.01em}
+.brand b span{color:#08aebd}
+.brand{gap:8px;letter-spacing:-.8px}
+.brand img{background:linear-gradient(145deg,#16c7ca,#08799b);border-radius:10px;padding:3px}
+.brand b{font-size:18px;letter-spacing:.25px}
+.heart.saved{color:#08aebd}
+.avatar{background:#d9f2ef;color:#07536b}
+.hero h1 em,.text-link span,.floating-note>span,.searchbox label>span{color:#08aebd}
+.btn-orange{background:#08aebd}.btn-orange:hover{background:#078da6}
+.btn-dark{background:#123b4d}.btn-dark:hover{background:#07536b}
+.category{background:#fbfefe;border-color:#dcebed}
+.category:hover,.category.selected{background:#dff7f6;border-color:#74d5d4}
+.category .cat-icon{background:#e2f7f6;color:#087f94}
+.near-tag{background:#e5f4f4;color:#53717c}
+.hero-sticker{background:#a7edeb;color:#07536b}
+.owner-banner{background:linear-gradient(120deg,#07536b,#087f97);color:white}
+.banner-art{background:#129daf;color:#baf5ee}
+.banner-art span{color:#e2fffb}
+.filter-chip.selected,.tabs button.selected{background:#123b4d;border-color:#123b4d;color:white}
+.form-note{background:#e7f7f7;color:#285c69}
+.toast{background:#123b4d}
+::selection{background:#a4edeb;color:#073a4d}

@@ -1,0 +1,38 @@
+.cart-trigger{font-size:12px;display:flex;align-items:center;gap:5px;white-space:nowrap;color:#123b4d}
+.cart-trigger>span{font-size:11px;font-weight:700}
+.cart-trigger i{font-size:10px;font-style:normal;background:#dff7f6;color:#07536b;padding:3px 6px;border-radius:12px;min-width:18px}
+.cart-content,.checkout-content{padding:30px}
+.cart-content h2,.checkout-content h2{font:700 25px Manrope,sans-serif;margin:7px 0 20px}
+.cart-list{max-height:330px;overflow:auto}
+.cart-row{display:grid;grid-template-columns:78px 1fr auto;gap:13px;padding:14px 0;border-top:1px solid #dcebed;align-items:start}
+.cart-row>img{width:78px;height:75px;object-fit:cover;border-radius:7px}
+.cart-item-info>b,.cart-row-end>b{font-size:12px}
+.cart-item-info>small{display:block;color:#607b85;font-size:10px;margin:4px 0 9px}
+.cart-controls{display:flex;gap:10px}
+.cart-controls label{font-size:9px;color:#607b85}
+.cart-controls input{display:block;border:1px solid #d9eaec;background:#fff;border-radius:5px;padding:7px;margin-top:4px;font-size:10px;width:125px;color:#123b4d}
+.cart-controls label:last-child input{width:56px}
+.cart-row-end{text-align:right;display:flex;flex-direction:column;align-items:end;gap:11px}
+.remove-cart,.back-cart{border:0;background:transparent;color:#078da6;font-size:10px;cursor:pointer;padding:3px}
+.cart-summary{border-top:1px solid #dcebed;margin-top:15px;padding-top:10px}
+.cart-summary>div{display:flex;justify-content:space-between;padding:6px 0;font-size:11px}
+.cart-summary>div span{color:#607b85}
+.cart-summary>div b{font-size:11px}
+.cart-summary .cart-total{border-top:1px solid #dcebed;margin-top:6px;padding-top:12px;color:#123b4d;font-size:13px}
+.cart-summary .cart-total b{font-size:16px}
+.cart-disclaimer{font-size:10px;line-height:1.55;color:#607b85;margin:12px 0}
+.cart-checkout,.checkout-content form>.btn{width:100%;margin-top:8px}
+.checkout-content .back-cart{margin:0 0 16px -3px;font-size:11px}
+.checkout-lines{max-height:145px;overflow:auto;margin-bottom:10px}
+.checkout-lines .demo-row{gap:10px;align-items:center;font-size:10px}
+.checkout-lines .demo-row span{line-height:1.45}
+.payment-options{border:1px solid #d9eaec;border-radius:7px;padding:10px 12px;margin:15px 0}
+.payment-options legend{font-size:10px;font-weight:700;padding:0 5px}
+.payment-options label{display:flex;align-items:center;gap:7px;font-size:11px;margin:9px 0}
+.payment-options label input{width:auto;margin:0;accent-color:#08adbd}
+.payment-options label small{color:#607b85;margin-left:auto;font-size:9px}
+.payment-note{background:#e7f7f7;color:#285c69}
+.payment-success{text-align:center;padding:38px 30px}
+.payment-success>.demo-row{text-align:left;margin:13px 0}
+.payment-success-icon{width:43px;height:43px;border-radius:50%;display:grid;place-items:center;background:#d9f2ef;color:#087f94;font-size:23px;font-weight:700;margin:0 auto 18px}
+@media(max-width:760px){.cart-trigger{font-size:11px;padding:5px}.cart-trigger>span{display:none}.cart-content,.checkout-content{padding:23px 17px}.cart-row{grid-template-columns:60px 1fr auto;gap:9px}.cart-row>img{width:60px;height:64px}.cart-item-info>b{font-size:10px}.cart-controls{gap:6px}.cart-controls input{width:110px}.cart-controls label:last-child input{width:49px}.cart-row-end>b{font-size:10px}.cart-disclaimer{font-size:9px}}
